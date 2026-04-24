@@ -1,0 +1,26 @@
+# 系统文件
+.DS_Store
+*.swp
+*.swo
+
+# 工作区（不提交）
+.workbuddy/
+
+# 开发/测试文件（只保留部署版）
+fsti/
+fsti-test*.html
+inner-zodiac-test.html
+fix_*.js
+deploy-woa.sh
+deploy.sh
+
+# 数据文件
+*.xlsx
+*.zip
+*.txt
+!new_qr.txt
+
+# 临时图片（非项目资源）
+A_square_icon_for_a_fun_person_*.png
+fsti-share-150x150.png
+fsti-share-500.png
